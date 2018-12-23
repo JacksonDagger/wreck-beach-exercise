@@ -96,8 +96,7 @@ class TestWreck(unittest.TestCase):
             finstam = wreckBeach.wreckMain(stair, stamina)
         except ISexception.InsufficientStaminaException:
             thrown = True
-        self.assertFalse(thrown)
-        self.assertEqual(finstam, 7)
+        self.assertTrue(thrown)
 
     def test_10(self):
         thrown = False
@@ -118,8 +117,7 @@ class TestWreck(unittest.TestCase):
             finstam = wreckBeach.wreckMain(stair, stamina)
         except ISexception.InsufficientStaminaException:
             thrown = True
-        self.assertFalse(thrown)
-        self.assertEqual(finstam, 5)
+        self.assertTrue(thrown)
 
     def test_12(self):
         thrown = False

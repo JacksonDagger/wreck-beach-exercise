@@ -1,7 +1,7 @@
 # wreck-beach-exercise
 You are at Wreck Beach, and it's been a tiring day. You have a stamina level that is represented by an integer **stamina,** where 0 ≤ stamina ≤ 1000.
 
-To get back home, you will need to make the climb back, and the stairs are behaving strangely today. There are **n** stairs to climb and each stepping on a stair drains some stamina. The amount of stamina that you lose when you step of the i-th stair is **stair[i]** where **stair is an array of length n,** with stair[0] corresponding to the first stair and stair[n-1] corresponding to the last stair.
+To get back home, you will need to make the climb back, and the stairs are behaving strangely today. You start below stair 0. There are **n** stairs to climb and each stepping on a stair drains some stamina. The amount of stamina that you lose when you step of the i-th stair is **stair[i]** where **stair is an array of length n,** with stair[0] corresponding to the first stair and stair[n-1] corresponding to the last stair.
 
 You want to reach the top of the stairs with a positive stamina level (> 0). If you are at stair[j], 0 ≤ j ≤ n-2, or before you take the first step, you have a few choices: 
 
@@ -11,4 +11,4 @@ You want to reach the top of the stairs with a positive stamina level (> 0). If 
 
 **What is the maximum amount of stamina you can be left with when you complete the climb?** You can skip any of the stairs using a big step or a jump. A big step or a jump past the last stair will get you to the road, which is your destination.
 
-To answer this question, implement the method **maxStamina** that takes as input the array **stair** and the initial stamina level **stamina**. If it is not possible to reach the top with positive stamina, throw an `InsufficientStaminaException`.
+To answer this question, implement the function **wreckMain** that takes as input the list **stair** and the initial stamina level **stamina**. If it is not possible to reach the top with positive stamina, throw an `InsufficientStaminaException`.
