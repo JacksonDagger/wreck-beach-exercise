@@ -1,0 +1,2 @@
+class InsufficientStaminaException(Exception):
+    pass
