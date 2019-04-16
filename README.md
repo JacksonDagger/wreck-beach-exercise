@@ -1,4 +1,7 @@
 # wreck-beach-exercise
+
+This was an exercise from CPEN221, an intro to software engineering course (in Java) that I took in fall 2018. I attempted this exercise in python while I was learning python over the holiday break in 2018/19.
+
 You are at Wreck Beach, and it's been a tiring day. You have a stamina level that is represented by an integer **stamina,** where 0 ≤ stamina ≤ 1000.
 
 To get back home, you will need to make the climb back, and the stairs are behaving strangely today. You start below stair 0. There are **n** stairs to climb and each stepping on a stair drains some stamina. The amount of stamina that you lose when you step of the i-th stair is **stair[i]** where **stair is an array of length n,** with stair[0] corresponding to the first stair and stair[n-1] corresponding to the last stair.
